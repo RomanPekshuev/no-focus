@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "IBM Plex Mono" sans-serif;
+    src: url();
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono" sans-serif;
+    src: url();
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #FF0070;
+}
+
+.isActiveButton {
+    border: 1px solid #FF0070;
+}
+
+.navigation {
+    
+}
