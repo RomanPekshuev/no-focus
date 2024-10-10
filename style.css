@@ -18,12 +18,123 @@ button:hover {
     background-color: transparent;
     font-size: 18px;
     color: #FF0070;
+    align-items: center;
 }
 
-.isActiveButton {
-    border: 1px solid #FF0070;
+.ActiveButton {
+
+box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 13px;
+
+position: absolute;
+width: 70px;
+height: 26px;
+left: 557px;
+top: 20px;
+
+border: 1px solid #FF0070;
+
 }
 
 .navigation {
     
+}
+
+.REC {
+
+position: absolute;
+width: 33px;
+height: 26px;
+left: 943px;
+top: 20px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+text-align: center;
+
+color: #FF0070;
+
+}
+
+.lamp.on
+{
+  display:block;
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background-image: #ff0070
+}
+
+.focus {
+    
+    position: absolute;
+    width: 759px;
+    height: 130px;
+    left: 0px;
+    top: calc(50% - 130px/2);
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 157px;
+    line-height: 82.5%;
+
+    color: #DB00FF;
+
+    text-shadow: 4px 4px 0px #FF0070;
+
+}
+
+.header {
+
+position: relative;
+width: 1024px;
+height: 768px;
+
+background: #000028;
+
+}
+
+.pink-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5,5px;
+    margin-top: 2,5px;
+    margin-left: 1px;
+    margin-right: 8px;
+    width: 491px;
+    height: 71px;
+    background: #FF0070;
+}
+
+section {
+    width: 1024px;
+    height: 508px;
+    background-color: blue;
+}
+
+h3 {
+
+}
+
+.rectangle {
+    width: 649px;
+    height: 23px;
+    background-color: #FF0070;
+    font-size: 18px;
+    text-align: left;
+}
+
+.columns-2 {
+    column-count: 2;
 }
