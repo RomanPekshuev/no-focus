@@ -10,20 +10,24 @@
   --background-image: url("../img/cover-image-dark.svg");
   --opacity_blub: 1;
 }
+
 @font-face {
     font-weight: 700;
     font-family: IBMPlexMono;
     src: url("../fonts/IBMPlexMono-Bold.ttf");
 }
+
 @font-face {
     font-weight: 400;
     font-family: IBMPlexMono;
     src: url("../fonts/IBMPlexMono-Regular.ttf");
 }
+
 html {
   margin: 0;
   padding: 0;
 } 
+
 body {
   font-family: IBMPlexMono;
   font-weight: 400;
@@ -33,6 +37,7 @@ body {
   padding: 0;
   background-color: var(--background-color);
 }
+
 button {
   cursor: pointer; 
   text-decoration: none;
@@ -41,12 +46,14 @@ button {
   padding: 0;
   border: 0;
 }
+
 .section_container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -58,6 +65,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .header_container {
   padding: 20px;
   position: relative;
@@ -68,6 +76,7 @@ ul, li {
   margin: 0;
   padding: 0;
 }
+
 h1 {
   font-weight: 700;
   font-size: 157px;
@@ -77,6 +86,7 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
 p {
   margin: 0;
   padding: 0;
@@ -85,13 +95,16 @@ p {
   font-weight: 400;
   line-height: 23.4px; /* 130% */
 }
+
 .title-type-3 {
   padding-bottom: 10px;
 }
+
 .corner_main {
   width: 25px;
   height: 25px;
 }
+
 .corner {
   position: absolute;
   top: 20px;
@@ -99,6 +112,7 @@ p {
   border-top: 1px solid var(--color-link);
   border-right: 1px solid var(--color-link);
 }
+
 .corner2 {
   position: absolute;
   left: 20px;
@@ -106,15 +120,18 @@ p {
   border-bottom: 1px solid var(--color-link);
   border-left: 1px solid var(--color-link);
 }
+
 .navigation_container {
   display: flex;
   height: 28px;
   justify-content: space-between;
 }
+
 .navigation-container-link {
   display: flex;
   gap: 10px;
 }
+
 .navigation-link {
   display: inline-flex;
   box-sizing: border-box;
@@ -124,13 +141,16 @@ p {
   align-items: center;
   flex-shrink: 0;
 }
+
 .navigation-link:focus {
   border-bottom: 1px solid var(--color-link);
 }
+
 .navigation-link:hover {
   border: 1px solid var(--color-link);
   opacity: 0.5;
 }
+
 .navigation-link > button {
   color: var(--color-link);
   font-size: 18px;
@@ -138,22 +158,26 @@ p {
   line-height: 18px;
   padding: 0 13px; 
 }
+
 .zero {
   width: 62px;
   height: 25px;
 }
+
 .bulb {
   opacity: var(--opacity_blub);
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .REC {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   color: var(--color-link);
 }
+
 .ellips{
   display: block;
   height: 9px;
@@ -163,6 +187,7 @@ p {
   border-radius: 50%;
   margin-right: 10px;
 }
+
 .focus {
   display: flex;
   align-items: center;
@@ -173,7 +198,8 @@ p {
   height: 130px;
   position: relative;
   left: -20px;
-} 
+}
+
 .pink-text {
   width: 491px;
   margin-left: auto;
@@ -181,12 +207,14 @@ p {
   display: block;
   background-color: var(--background-color-title);
 }
+
 .pink-text > p {
   color: var(--text-color-title-type-3);
 }
+
 .title-block {
 
-display: flex;
+  display: flex;
   width: 34%;
   flex: 1;
   align-self: stretch;
@@ -207,4 +235,60 @@ display: flex;
 }
 .block-column {
     width: 32%;
+}
+
+.flex_container {
+  width: 1024px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.why {
+  height: 608px;
+}
+
+.why_container {
+  max-width: 1024px;
+  padding: 60px 20px 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color-title-block);
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color-title-type-3);
+  background-color: var(--background-color-title);
+  margin: 0;
+}
+
+.block-paragraph-container {
+  width: 66%;
+  flex: 1;
+}
+
+.block-paragraph {
+  margin-bottom: 20px;
+}
+
+.block-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.block-paragraph > .Rectangle > h3 {
+  color: var(--text-color-title-type-3);
+}
+
+.how > .how_container > .block-paragraph-container > .block-paragraph > .Rectangle > h3 {
+  font-weight: 400;
 }
